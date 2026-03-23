@@ -1,12 +1,19 @@
 # Hi, I'm Azim Sadath 👋
 
-**Aspiring Data Scientist | Finance ML & Risk Modeling | Python · XGBoost · SHAP · Streamlit**
+**Aspiring Data Scientist | Finance ML & NLP | Python · XGBoost · FinBERT · SHAP · Streamlit**
 
-B.Tech Computer Science (Data Science) student at LPU, building production-grade ML systems for financial risk. I specialize in credit risk, fraud detection, and explainable AI — with deployed Streamlit apps for every project.
+B.Tech Computer Science (Data Science) student at LPU, building production-grade ML systems for financial risk and NLP. I specialize in credit risk, fraud detection, financial sentiment analysis, and explainable AI — with deployed Streamlit apps for every project.
 
 ---
 
 ## 🚀 Featured Projects
+
+### 📰 [FinSentiment Stock Predictor](https://github.com/Azim521/FinSentiment-Stock-Predictor)
+Real-time financial news sentiment analysis + next-day price movement prediction. Fetches live headlines via NewsAPI, runs **ProsusAI/FinBERT** (90% accuracy on 4,846 financial headlines), combines with 12 technical indicators, and predicts UP/DOWN movement for AAPL, TSLA, MSFT, GOOGL.
+`FinBERT` `XGBoost` `NewsAPI` `yfinance` `NLP` `Streamlit`
+&nbsp;→ [**Live App**](https://finsentiment-stock-predictor.streamlit.app)
+
+---
 
 ### 💰 [Loan Default Risk Engine](https://github.com/Azim521/Loan-Default-Risk-Engine)
 End-to-end credit risk system trained on **1.3M+ Lending Club records**. Multi-model comparison (Logistic Regression, Random Forest, XGBoost), engineered financial stress features, SHAP explainability, and a live risk scoring app (0–100 scale).
@@ -39,10 +46,11 @@ Recursive multi-step revenue forecasting system with lag features, holiday-weigh
 ## 🛠 Skills
 
 **Machine Learning** — XGBoost, Random Forest, Logistic Regression, SHAP, SMOTE  
+**NLP** — FinBERT, HuggingFace Transformers, Financial Sentiment Analysis  
 **Data** — Pandas, NumPy, Scikit-learn, Feature Engineering, EDA  
 **Deployment** — Streamlit, Plotly  
 **Languages** — Python, SQL, R  
-**Currently learning** — Data Engineering, Financial NLP, LightGBM
+**Currently learning** — Data Engineering, LightGBM, Financial Data APIs
 
 ---
 
